@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rich-device-info"
+version = "0.1.0"
+description = "A package to display system info using rich"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name="Your Name", email="your@email.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["rich", "system info", "device info"]
+requires-python = ">=3.7"
+dependencies = [
+    "rich>=12.0.0",
+    "pyyaml>=5.4",
+]
+
+[project.urls]
+homepage = "https://github.com/No4Var2Ye"
+repository = "https://github.com/No4Var2Ye"

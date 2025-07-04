@@ -1,0 +1,27 @@
+{
+    "rcParams": {
+        "font.family": "SimHei",
+        "font.size": 12,
+        "axes.titlesize": 16
+    },
+    "figure_size": [10, 6],
+    "line_style": {
+        "color": "red",
+        "linestyle": "--",
+        "linewidth": 2,
+        "label": "正弦曲线"
+    },
+    "title": "从JSON配置的图形",
+    "xlabel": "X轴标签",
+    "ylabel": "Y轴标签",
+    "grid": true,
+    "grid_style": {
+        "linestyle": ":",
+        "alpha": 0.5
+    },
+    "output_file": "custom_plot.png",
+    "save_options": {
+        "dpi": 300,
+        "bbox_inches": "tight"
+    }
+}

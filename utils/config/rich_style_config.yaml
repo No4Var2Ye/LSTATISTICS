@@ -1,0 +1,11 @@
+# table_config.yaml
+rich_table:
+  title: "Untitled Table"
+  show_header: true
+  header_style: "bold magenta"
+  show_lines: true
+  box: ASCII
+  border_style: cyan
+  row_styles:
+    - cyan
+    - ""

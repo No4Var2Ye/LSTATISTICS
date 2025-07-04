@@ -1,0 +1,35 @@
+style: ggplot
+rc_params:
+  font.family: SimHei
+  axes.labelsize: 14
+  axes.titlesize: 18
+
+figure_size: [12, 7]
+
+plots:
+  - x: [1, 2, 3, 4]
+    y: [1, 4, 9, 16]
+    label: 平方函数
+    color: blue
+    marker: o
+    linestyle: "-"
+  
+  - x: [1, 2, 3, 4]
+    y: [1, 2, 3, 4]
+    label: 线性函数
+    color: red
+    linestyle: "--"
+
+axes_settings:
+  title: 从YAML配置的图形
+  xlabel: X轴
+  ylabel: Y轴
+  xlim: [0, 5]
+  ylim: [0, 20]
+
+legend_settings:
+  loc: upper left
+  fontsize: 12
+  framealpha: 0.8
+
+output_file: yaml_config_plot.png
