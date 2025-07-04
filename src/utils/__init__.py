@@ -8,8 +8,9 @@ import sys
 from pathlib import Path
 import logging
 
-from rich_style import load_rich_table_config, create_rich_table
-import convertor
+from utils.rich_style import load_rich_table_config, create_rich_table
+import utils.convertor as convertor
+from utils.device_parms import display_device_info
 
 # =====================================================================
 
@@ -33,4 +34,4 @@ class Settings:
 # print(f"Config directory: {Settings.CONFIG_PATH}")
 
 
-__all__ = ["load_rich_table_config", "create_rich_table", "convertor"]
+__all__ = ["load_rich_table_config", "create_rich_table", "convertor", "display_device_info"]

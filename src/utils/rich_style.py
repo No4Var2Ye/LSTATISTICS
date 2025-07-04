@@ -63,10 +63,10 @@ def main():
 
     table.add_column(header="Test Header1")
     table.add_column(header="Test Header2")
-    
+
     table.add_row("test data11", "test data12")
     table.add_row("test data21", "test data22")
-    
+
     console.print(table)
 
 

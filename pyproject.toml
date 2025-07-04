@@ -12,23 +12,36 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 dependencies = [
-    matplotlib==3.10.3
-    numpy==2.2.6
-    pandas==2.3.0
-    plotly==6.2.0
-    rich==14.0.0
-    seaborn==0.13.2
-    nvidia-ml-py==12.0.0
-    psutil==7.0.0
+    "pyyaml==6.0.2",
+    "matplotlib==3.10.3",
+    "pandas==2.3.0",
+    "plotly==6.2.0",
+    "rich==14.0.0",
+    "seaborn==0.13.2",
+    "nvidia-ml-py==12.0.0",
+    "psutil==7.0.0",
+    "cairosvg"
 ]
 description = "A package to learn Statistics"
 keywords = ["Statistics"]
 license = {file = "LICENSE.md"}
-name = "LSTATISTICS"
+name = "utils"
 readme = "README.md"
 requires-python = ">=3.10"
-version = "0.1.0"
+version = "0.1.1"
 
 [project.urls]
 homepage = "https://www.nowisdoms.xyz/"
 repository = "https://github.com/No4Var2Ye/LSTATISTICS"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # ["."] by default
+include = ["utils"]  # ["*"] by default
+exclude = []  # empty by default
+namespaces = false  # true by default
+
+[tool.setuptools]
+include-package-data = true
+# This is already the default behaviour if you are using
+# pyproject.toml to configure your build.
+# You can deactivate that with `include-package-data = false`

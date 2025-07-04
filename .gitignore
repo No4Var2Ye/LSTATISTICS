@@ -9,7 +9,9 @@ Thumbs.db
 /.idea/
 
 # Python
-__pycache__
+/__pycache__/
+pyproject.toml
+/LSTATISTICS.egg-info/
 
 # Documentation
 /docs/
@@ -17,3 +19,4 @@ __pycache__
 
 # Outputs
 /outputs/
+/dist/
