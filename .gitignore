@@ -5,11 +5,15 @@ DS_Store
 Thumbs.db
 
 # IDE
-.vscode/
-.idea/
+/.vscode/
+/.idea/
 
 # Python
 __pycache__
 
+# Documentation
+/docs/
+!/docs/Change-Logs.md
+
 # Outputs
-outputs/
+/outputs/
