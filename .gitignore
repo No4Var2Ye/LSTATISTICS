@@ -9,10 +9,16 @@ Thumbs.db
 /.idea/
 
 # Python
-/__pycache__/
+/**/__pycache__/
 pyproject.toml
-/LSTATISTICS.egg-info/
-tox.ini
+<<<<<<< HEAD
+/**/*.egg-info/
+# tox.ini
+=======
+/**/*.egg-info/
+.ipynb_checkpoints/
+# tox.ini
+>>>>>>> 4cbec11 (20250705-Clean Cache Files)
 
 # Documentation
 /docs/
