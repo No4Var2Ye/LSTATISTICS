@@ -34,7 +34,7 @@ from rich.pretty import pprint
 import psutil
 import pynvml
 
-from utils.rich_style import load_rich_table_config, create_rich_table
+from nostats.utils.rich_style import load_rich_table_config, create_rich_table
 
 # =====================================================================
 

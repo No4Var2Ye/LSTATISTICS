@@ -12,6 +12,7 @@ Thumbs.db
 /__pycache__/
 pyproject.toml
 /LSTATISTICS.egg-info/
+tox.ini
 
 # Documentation
 /docs/

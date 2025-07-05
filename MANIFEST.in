@@ -3,6 +3,6 @@ include README.md LICENSE
 recursive-include src *.py
 
 # Include all .json and .ini files under the config directory inside mypackage
-recursive-include src/utils/config *.json *.ini *.yaml
+recursive-include src/nostats/utils/config *.json *.ini *.yaml
 
 prune tests
