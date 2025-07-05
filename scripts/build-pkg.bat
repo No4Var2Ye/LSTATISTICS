@@ -16,7 +16,7 @@ if exist "dist\" (
 )
 
 echo.
-echo 🔨 Starting project build...
+echo Starting project build...
 python -m build
 
 if %ERRORLEVEL% == 0 (

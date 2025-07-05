@@ -1,24 +1,12 @@
-# Logs
 
-# OS 
-DS_Store
+# macOS dir files
+.DS_Store
 Thumbs.db
 
-# IDE
-/.vscode/
-/.idea/
-
 # Python
-/**/__pycache__/
-pyproject.toml
-<<<<<<< HEAD
-/**/*.egg-info/
+__pycache__/
+*.egg-info/
 # tox.ini
-=======
-/**/*.egg-info/
-.ipynb_checkpoints/
-# tox.ini
->>>>>>> 4cbec11 (20250705-Clean Cache Files)
 
 # Documentation
 /docs/
@@ -27,3 +15,46 @@ pyproject.toml
 # Outputs
 /outputs/
 /dist/
+
+# Editor temporaries
+*.swa
+*.swb
+*.swc
+*.swd
+*.swe
+*.swf
+*.swg
+*.swh
+*.swi
+*.swj
+*.swk
+*.swl
+*.swm
+*.swn
+*.swo
+*.swp
+*~
+.~lock.*
+
+## General
+
+# IDE
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings_recommended.json
+/.idea/
+
+# Virtualenv
+venv/
+
+# Log files
+*.log
+sweep/
+
+# zip archives
+*.zip
+
+# direnv, posh-direnv
+.env
+.envrc
+.psenvrc

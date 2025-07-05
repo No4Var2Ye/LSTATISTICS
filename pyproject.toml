@@ -12,9 +12,17 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 dependencies = []
+description = "A package to learn Statistics"
+keywords = ["Statistics"]
+license = {file = "LICENSE.md"}
 name = "nostats"
+readme = "README.md"
 requires-python = ">=3.10"
 version = "0.1.1"
+
+[project.urls]
+homepage = "https://www.nowisdoms.xyz/"
+repository = "https://github.com/No4Var2Ye/LSTATISTICS"
 
 [tool.setuptools.packages.find]
 where = ["src"]  # ["."] by default

@@ -30,3 +30,14 @@ Learning Statistics
 1. 时间序列分析 Time Series Analysis
 2. 非参数检验 Nonparametric Tests
 3. 多元统计分析 Multivariate Statistical Analysis
+
+## Deployment
+
+``` sh
+conda create --name LSTATISTICS python=3.10
+pip install -r requirements.txt
+```
+
+
+
+
