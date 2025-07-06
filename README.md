@@ -31,6 +31,8 @@ Learning Statistics
 2. 非参数检验 Nonparametric Tests
 3. 多元统计分析 Multivariate Statistical Analysis
 
+[统计学学习记录](./notebooks/index.md)
+
 ## Deployment
 
 ``` sh

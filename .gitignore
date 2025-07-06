@@ -11,7 +11,7 @@ __pycache__/
 # Documentation
 /docs/
 !/docs/Change-Logs.md
-
+!/docs/references/*
 # Outputs
 /outputs/
 /dist/
