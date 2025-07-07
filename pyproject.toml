@@ -35,3 +35,8 @@ include-package-data = true
 # This is already the default behaviour if you are using
 # pyproject.toml to configure your build.
 # You can deactivate that with `include-package-data = false`
+
+[tool.pyright]
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+exclude = ["**/conda*/**", "**/envs/**", "**/site-packages/**"]
